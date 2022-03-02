@@ -1,0 +1,346 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- bar charts -->
+    <link rel="stylesheet" href="https://unpkg.com/charts.css/dist/charts.min.css">
+
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- index.link -->
+    <link rel="stylesheet" href="index.css" />
+    <title>Ha-Shem DashBoard</title>
+  </head>
+  <body>
+    <div class="container-fluid wrapper">
+      <div class="row">
+        <div class="col aside">
+          <image
+            src="./assets/Ellipse 96.png"
+            class="rounded w-12 h-12 images"
+            alt="img"
+          />
+          <p class="text-md leading-9 text-center">Idemeto Emediong</p>
+          <p class="text-sm leading-3 text-center tracking-wide antialiased">
+            Front-end Developer
+          </p>
+          <div class="button-div my-8 text-center">
+            <button class="btn btn-primary text-white">
+              <ion-icon name="speedometer-outline" class="icon"></ion-icon
+              >Become a Pro
+            </button>
+          </div>
+          <div class="my-8 text-center">
+            <button class="btn btn-transparent">
+              <ion-icon name="speedometer" class="icon"></ion-icon>
+              Dashboard
+            </button>
+          </div>
+          <div class="my-8 text-center">
+            <button class="btn btn-transparent">
+              <ion-icon name="person" class="icon"></ion-icon>Menu 1
+            </button>
+          </div>
+          <div class="my-8 text-center">
+            <button class="btn btn-transparent">
+              <ion-icon name="storefront" class="icon"></ion-icon>Menu 2
+            </button>
+          </div>
+          <div class="my-8 text-center">
+            <button class="btn btn-transparent">
+              <ion-icon name="person" class="icon"></ion-icon>Menu 3
+            </button>
+          </div>
+          <div class="my-8 text-center">
+            <button class="btn btn-transparent">
+              <ion-icon name="speedometer" class="icon"></ion-icon>
+              Menu 4
+            </button>
+          </div>
+          <div class="my-8 text-center">
+            <button class="btn btn-transparent">
+              <ion-icon name="business" class="icon"></ion-icon>Menu 5
+            </button>
+          </div>
+          <div class="my-8 text-center">
+            <button class="btn btn-transparent">
+              <ion-icon name="speedometer-outline" class="icon"></ion-icon>Menu
+              6
+            </button>
+          </div>
+          <div class="storage-container">
+            <image
+              src="./assets/folder_black_24dp.svg"
+              alt="svg"
+              class="icon-svg"
+            />
+            <p class="text-md leading-9 text-center font-bold">
+              Buy More Storage
+            </p>
+            <div class="my-2 text-center">
+              <button class="btn btn-primary text-white mb-8">Buy Now</button>
+            </div>
+          </div>
+          <div class="my-8 text-center">
+            <button class="btn btn-transparent">
+              <ion-icon name="person" class="icon"></ion-icon>Menu 7
+            </button>
+          </div>
+        </div>
+
+        <!-- dashboard area -->
+        <div class="col-6">
+          <ul class="nav">
+            <li>
+              <p class="my-8 mr-4 font-bold text-2xl tracking-wide text-black">
+                DashBoard
+              </p>
+            </li>
+            <li>
+              <ion-icon name="search-outline" class="icon-search"></ion-icon>
+              <input type="text" class="input-form" placeholder="Search here" />
+            </li>
+            <li>
+              <div class="add-container">
+                <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              </div>
+            </li>
+          </ul>
+          <nav class="navbar my-8">
+            <div class="container">
+              <p class="font-normal text-xl leading-7 mt-3">Ongoing project</p>
+              <div class="d-flex">
+                <p class="ml-4 mt-3">Remaining</p>
+                <p class="ml-4 mt-3 text-blue-600">Ongoing</p>
+                <p class="ml-4 mt-3">Completed</p>
+              </div>
+            </div>
+          </nav>
+          <!-- main dashboard -->
+          <div class="mt-8 projects-dashboard">
+            <div class="my-2 task-one">
+              <p class="text-xl text-white mx-4 my-1">App Design</p>
+              <p class="date-format text-white mx-4 mb-1">28th February, 2022</p>
+            </div>
+            <div class="my-2 task-one task-two">
+              <p class="text-xl text-white mx-4 my-1">App Design</p>
+              <p class="date-format text-white mx-4 mb-1">28th February, 2022</p>
+            </div>
+            <div class="user-avatars">
+              <image
+                src="./assets/Ellipse 91.png"
+                alt=""
+                class="user_avatars"
+              />
+              <image
+                src="./assets/Ellipse 92.png"
+                alt=""
+                class="user_avatars"
+              />
+              <image
+                src="./assets/Ellipse 93.png"
+                alt=""
+                class="user_avatars"
+              />
+            </div>
+            <div class="my-2 task-one task-three">
+              <p class="text-xl text-white mx-4 my-1">App Design</p>
+              <p class="date-format text-white mx-4 mb-1">28th February, 2022</p>
+            </div>
+            <div class="user-avatars slide">
+              <div class="stickout">
+                <div class="pro">
+                  <image
+                    src="./assets/Rectangle 1357.png"
+                    alt=""
+                    class="rectangle"
+                  />
+                  <image
+                    src="./assets/Rectangle 1359.png"
+                    alt=""
+                    class="ball"
+                  />
+                </div>
+              </div>
+              <p class="progress-count mt-3 text-white text-xs">80%</p>
+            </div>
+            <div class="my-10">
+              <div class="todo-display">
+                <div class="task-key todo"></div>
+                <p>ToDo</p>
+                <div class="task-key Inprogress ml-8"></div>
+                <p>Inprogress</p>
+                <div class="task-key completed ml-8"></div>
+                <p>Completed</p>
+              </div>
+            </div>
+          </div>
+          <div class="pie-progress flex">
+            <div>
+              <ion-icon
+                name="arrow-back-outline"
+                class="arrow-icon red-arrow"
+              ></ion-icon>
+              <img src="./assets/Ellipse 98.png" alt="" class="pie-chat" />
+              <p class="progress-task">Task Remaining</p>
+              <p class="progress-task aggregate">12/15</p>
+            </div>
+            <div class="green-pie">
+              <ion-icon
+                name="arrow-back-outline"
+                class="arrow-icon green-arrow"
+              ></ion-icon>
+              <img
+                src="./assets/Ellipse 90.png"
+                alt=""
+                class="pie-chat green-pie-chat"
+              />
+              <p class="progress-task green-pie-task">Task Done</p>
+              <p class="progress-task aggregate green-pie-aggregate">12/15</p>
+            </div>
+            <div class="orange-pie">
+              <ion-icon
+                name="arrow-back-outline"
+                class="arrow-icon orange-arrow"
+              ></ion-icon>
+              <img
+                src="./assets/Ellipse 97.png"
+                alt=""
+                class="pie-chat orange-pie-chat"
+              />
+              <p class="progress-task orange-pie-task">Task Left</p>
+              <p class="progress-task aggregate orange-pie-aggregate">12/15</p>
+            </div>
+          </div>
+          <div class="bar-charts">
+            <nav class="navbar my-8">
+                <div class="container">
+                  <p class="font-bold text-xl leading-7 mt-3">Progress Stats</p>
+                  <div class="d-flex">
+                    <p class="ml-4 mt-3 text-black">day</p>
+                    <p class="ml-4 mt-3 text-black">week</p>
+                    <p class="ml-4 mt-3 text-black">month</p>
+                  </div>
+                </div>
+              </nav>
+          </div>
+        </div>
+        <div class="col">
+            <nav class="navbar my-8">
+                <div class="container">
+                  <div class="d-flex">
+                        <div class="nav-items">
+                            <ion-icon name="notifications" class="icon-notification icon-container"></ion-icon>
+                            <ion-icon name="settings" class="icon-setting icon-container"></ion-icon
+                        </div>
+                  </div>
+                </div>
+              </nav>
+              <div class="pro-version">
+                <p class="vespar-text">Try PRO version</p>
+                <p class="vespar-text sub-text">Unlock full power of <br />calender
+                    For 2 weeks for free!</p>
+                <img src="./assets/vespar.png" alt="" class="vespar-img" />
+            </div>
+            <main class="card">
+                <section class="card__header">
+                    <ion-icon name="chevron-back-outline" class="icon-right"></ion-icon>
+                  <h3>December</h3>
+                  <h3 class="text-black">January</h3>
+                  <h3>February</h3>
+                  <ion-icon name="chevron-forward-outline" class="icon-right"></ion-icon>
+                </section>
+                <section class="card__body">
+                  <ul class="card__body--days">
+                    <li>S</li>
+                    <li>M</li>
+                    <li>T</li>
+                    <li>W</li>
+                    <li>T</li>
+                    <li>F</li>
+                    <li>S</li>
+                  </ul>
+                  <ul class="card__body--dates">
+                    <li class="prev">26</li>
+                    <li class="prev">27</li>
+                    <li class="prev">28</li>
+                    <li class="prev">29</li>
+                    <li class="prev">30</li>
+                    <li class="prev">31</li>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li class="active">7</li>
+                    <li>8</li>
+                    <li>9</li>
+                    <li>10</li>
+                    <li>11</li>
+                    <li>12</li>
+                    <li>13</li>
+                    <li>14</li>
+                    <li>15</li>
+                    <li>16</li>
+                    <li class="circle orange">17</li>
+                    <li class="circle purple">18</li>
+                    <li>19</li>
+                    <li>20</li>
+                    <li>21</li>
+                    <li>22</li>
+                    <li>23</li>
+                    <li>24</li>
+                    <li>25</li>
+                    <li>26</li>
+                    <li>27</li>
+                    <li class="active active-two">28</li>
+                    <li>29</li>
+                    <li>30</li>
+                    <li>31</li>
+                    <li class="next">1</li>
+                    <li class="next">2</li>
+                    <li class="next">3</li>
+                    <li class="next">4</li>
+                    <li class="next">5</li>
+                  </ul>
+                </section>
+              </main>
+            <div class="incoming-calls">
+                <div class="call-identity">project manager</div>
+                <div class="call-basis">Client Meeting</div>
+                <!-- <ion-icon name="add" class="add-icon-bottom"></ion-icon>
+                <p class="add-icon-bottom add-icon-text">New</p> -->
+                <div class="slider">
+                    <p class="text-center swipe-text">Swipe To Call</p>
+                    <div class="call-handler"></div>
+                    <ion-icon name="call" class="icon-calls"></ion-icon>
+                </div>
+            </div>
+        </div>
+     </div>
+     </body>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+</html>
